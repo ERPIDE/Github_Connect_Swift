@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67C5FE1528F1B244008EE727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C5FE1428F1B244008EE727 /* AppDelegate.swift */; };
+		67C5FE1728F1B244008EE727 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C5FE1628F1B244008EE727 /* SceneDelegate.swift */; };
+		67C5FE1928F1B244008EE727 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C5FE1828F1B244008EE727 /* ViewController.swift */; };
+		67C5FE1C28F1B244008EE727 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C5FE1A28F1B244008EE727 /* Main.storyboard */; };
+		67C5FE1E28F1B245008EE727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C5FE1D28F1B245008EE727 /* Assets.xcassets */; };
+		67C5FE2128F1B245008EE727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C5FE1F28F1B245008EE727 /* LaunchScreen.storyboard */; };
+		67C5FE2C28F1B245008EE727 /* MyerpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C5FE2B28F1B245008EE727 /* MyerpTests.swift */; };
+		67C5FE3628F1B245008EE727 /* MyerpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C5FE3528F1B245008EE727 /* MyerpUITests.swift */; };
+		67C5FE3828F1B245008EE727 /* MyerpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C5FE3728F1B245008EE727 /* MyerpUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67C5FE2828F1B245008EE727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67C5FE0928F1B244008EE727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67C5FE1028F1B244008EE727;
+			remoteInfo = Myerp;
+		};
+		67C5FE3228F1B245008EE727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67C5FE0928F1B244008EE727 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67C5FE1028F1B244008EE727;
+			remoteInfo = Myerp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67C5FE1128F1B244008EE727 /* Myerp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myerp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C5FE1428F1B244008EE727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67C5FE1628F1B244008EE727 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		67C5FE1828F1B244008EE727 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67C5FE1B28F1B244008EE727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67C5FE1D28F1B245008EE727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67C5FE2028F1B245008EE727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67C5FE2228F1B245008EE727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67C5FE2728F1B245008EE727 /* MyerpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyerpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C5FE2B28F1B245008EE727 /* MyerpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyerpTests.swift; sourceTree = "<group>"; };
+		67C5FE3128F1B245008EE727 /* MyerpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyerpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C5FE3528F1B245008EE727 /* MyerpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyerpUITests.swift; sourceTree = "<group>"; };
+		67C5FE3728F1B245008EE727 /* MyerpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyerpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67C5FE0E28F1B244008EE727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C5FE2428F1B245008EE727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C5FE2E28F1B245008EE727 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67C5FE0828F1B244008EE727 = {
+			isa = PBXGroup;
+			children = (
+				67C5FE1328F1B244008EE727 /* Myerp */,
+				67C5FE2A28F1B245008EE727 /* MyerpTests */,
+				67C5FE3428F1B245008EE727 /* MyerpUITests */,
+				67C5FE1228F1B244008EE727 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67C5FE1228F1B244008EE727 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67C5FE1128F1B244008EE727 /* Myerp.app */,
+				67C5FE2728F1B245008EE727 /* MyerpTests.xctest */,
+				67C5FE3128F1B245008EE727 /* MyerpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67C5FE1328F1B244008EE727 /* Myerp */ = {
+			isa = PBXGroup;
+			children = (
+				67C5FE1428F1B244008EE727 /* AppDelegate.swift */,
+				67C5FE1628F1B244008EE727 /* SceneDelegate.swift */,
+				67C5FE1828F1B244008EE727 /* ViewController.swift */,
+				67C5FE1A28F1B244008EE727 /* Main.storyboard */,
+				67C5FE1D28F1B245008EE727 /* Assets.xcassets */,
+				67C5FE1F28F1B245008EE727 /* LaunchScreen.storyboard */,
+				67C5FE2228F1B245008EE727 /* Info.plist */,
+			);
+			path = Myerp;
+			sourceTree = "<group>";
+		};
+		67C5FE2A28F1B245008EE727 /* MyerpTests */ = {
+			isa = PBXGroup;
+			children = (
+				67C5FE2B28F1B245008EE727 /* MyerpTests.swift */,
+			);
+			path = MyerpTests;
+			sourceTree = "<group>";
+		};
+		67C5FE3428F1B245008EE727 /* MyerpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67C5FE3528F1B245008EE727 /* MyerpUITests.swift */,
+				67C5FE3728F1B245008EE727 /* MyerpUITestsLaunchTests.swift */,
+			);
+			path = MyerpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67C5FE1028F1B244008EE727 /* Myerp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C5FE3B28F1B245008EE727 /* Build configuration list for PBXNativeTarget "Myerp" */;
+			buildPhases = (
+				67C5FE0D28F1B244008EE727 /* Sources */,
+				67C5FE0E28F1B244008EE727 /* Frameworks */,
+				67C5FE0F28F1B244008EE727 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Myerp;
+			productName = Myerp;
+			productReference = 67C5FE1128F1B244008EE727 /* Myerp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67C5FE2628F1B245008EE727 /* MyerpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C5FE3E28F1B245008EE727 /* Build configuration list for PBXNativeTarget "MyerpTests" */;
+			buildPhases = (
+				67C5FE2328F1B245008EE727 /* Sources */,
+				67C5FE2428F1B245008EE727 /* Frameworks */,
+				67C5FE2528F1B245008EE727 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67C5FE2928F1B245008EE727 /* PBXTargetDependency */,
+			);
+			name = MyerpTests;
+			productName = MyerpTests;
+			productReference = 67C5FE2728F1B245008EE727 /* MyerpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67C5FE3028F1B245008EE727 /* MyerpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C5FE4128F1B245008EE727 /* Build configuration list for PBXNativeTarget "MyerpUITests" */;
+			buildPhases = (
+				67C5FE2D28F1B245008EE727 /* Sources */,
+				67C5FE2E28F1B245008EE727 /* Frameworks */,
+				67C5FE2F28F1B245008EE727 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67C5FE3328F1B245008EE727 /* PBXTargetDependency */,
+			);
+			name = MyerpUITests;
+			productName = MyerpUITests;
+			productReference = 67C5FE3128F1B245008EE727 /* MyerpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67C5FE0928F1B244008EE727 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					67C5FE1028F1B244008EE727 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					67C5FE2628F1B245008EE727 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 67C5FE1028F1B244008EE727;
+					};
+					67C5FE3028F1B245008EE727 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 67C5FE1028F1B244008EE727;
+					};
+				};
+			};
+			buildConfigurationList = 67C5FE0C28F1B244008EE727 /* Build configuration list for PBXProject "Myerp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67C5FE0828F1B244008EE727;
+			productRefGroup = 67C5FE1228F1B244008EE727 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67C5FE1028F1B244008EE727 /* Myerp */,
+				67C5FE2628F1B245008EE727 /* MyerpTests */,
+				67C5FE3028F1B245008EE727 /* MyerpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67C5FE0F28F1B244008EE727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C5FE2128F1B245008EE727 /* LaunchScreen.storyboard in Resources */,
+				67C5FE1E28F1B245008EE727 /* Assets.xcassets in Resources */,
+				67C5FE1C28F1B244008EE727 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C5FE2528F1B245008EE727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C5FE2F28F1B245008EE727 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67C5FE0D28F1B244008EE727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C5FE1928F1B244008EE727 /* ViewController.swift in Sources */,
+				67C5FE1528F1B244008EE727 /* AppDelegate.swift in Sources */,
+				67C5FE1728F1B244008EE727 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C5FE2328F1B245008EE727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C5FE2C28F1B245008EE727 /* MyerpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C5FE2D28F1B245008EE727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C5FE3828F1B245008EE727 /* MyerpUITestsLaunchTests.swift in Sources */,
+				67C5FE3628F1B245008EE727 /* MyerpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67C5FE2928F1B245008EE727 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67C5FE1028F1B244008EE727 /* Myerp */;
+			targetProxy = 67C5FE2828F1B245008EE727 /* PBXContainerItemProxy */;
+		};
+		67C5FE3328F1B245008EE727 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67C5FE1028F1B244008EE727 /* Myerp */;
+			targetProxy = 67C5FE3228F1B245008EE727 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67C5FE1A28F1B244008EE727 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67C5FE1B28F1B244008EE727 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67C5FE1F28F1B245008EE727 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67C5FE2028F1B245008EE727 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67C5FE3928F1B245008EE727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67C5FE3A28F1B245008EE727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67C5FE3C28F1B245008EE727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Myerp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Myerp.Myerp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67C5FE3D28F1B245008EE727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Myerp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Myerp.Myerp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67C5FE3F28F1B245008EE727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Myerp.MyerpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myerp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Myerp";
+			};
+			name = Debug;
+		};
+		67C5FE4028F1B245008EE727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Myerp.MyerpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myerp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Myerp";
+			};
+			name = Release;
+		};
+		67C5FE4228F1B245008EE727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Myerp.MyerpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Myerp;
+			};
+			name = Debug;
+		};
+		67C5FE4328F1B245008EE727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Myerp.MyerpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Myerp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67C5FE0C28F1B244008EE727 /* Build configuration list for PBXProject "Myerp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C5FE3928F1B245008EE727 /* Debug */,
+				67C5FE3A28F1B245008EE727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C5FE3B28F1B245008EE727 /* Build configuration list for PBXNativeTarget "Myerp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C5FE3C28F1B245008EE727 /* Debug */,
+				67C5FE3D28F1B245008EE727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C5FE3E28F1B245008EE727 /* Build configuration list for PBXNativeTarget "MyerpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C5FE3F28F1B245008EE727 /* Debug */,
+				67C5FE4028F1B245008EE727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C5FE4128F1B245008EE727 /* Build configuration list for PBXNativeTarget "MyerpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C5FE4228F1B245008EE727 /* Debug */,
+				67C5FE4328F1B245008EE727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67C5FE0928F1B244008EE727 /* Project object */;
+}
